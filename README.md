@@ -44,7 +44,8 @@ A virtual machine was provisioned with Windows Server 2022 Standard (Desktop Exp
 
 The Active Directory Domain Services (AD DS) role was installed, and the server was promoted to a Domain Controller. A new local forest and domain were established to serve as the foundation for the on-premises network identity management.
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/98aae3e7-673a-41b9-b085-a23635e7f93d" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/287450b4-93f9-45c3-bef7-e1463748b833" />
+
 
 
 **3. Directory Structure & User Management**
