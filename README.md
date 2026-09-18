@@ -59,7 +59,11 @@ Organizational Units (OUs) were created to logically categorize departments and 
 **4. Microsoft Entra Connect Cloud Synchronization**
 To establish the hybrid identity, Microsoft Entra Connect was installed. On-premises identities were successfully synced to the cloud, verified by checking the Entra ID portal for the "On-premises sync enabled" status.
 
-[Drag and drop your Entra Connect / Entra ID portal screenshot here]
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/86530b8a-7582-4fda-9ba2-50da43d003d7" />
+
+<img width="1362" height="762" alt="image" src="https://github.com/user-attachments/assets/571f9177-a235-4847-8c29-d148e2ff33ad" />
+
+
 
 **5. Microsoft Intune Device Enrollment**
 To manage the endpoints, auto-enrollment for Windows devices into Microsoft Intune was configured. Configuration profiles and compliance policies were pushed to the test client machine.
