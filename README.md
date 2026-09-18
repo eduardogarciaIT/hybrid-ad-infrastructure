@@ -31,7 +31,8 @@ To simulate the on-premises data center, Microsoft Hyper-V was utilized as the v
 **1. Server Provisioning & Network Setup**
 A virtual machine was provisioned with Windows Server 2022 Standard (Desktop Experience). To ensure reliable DNS resolution and domain functionality, the server was assigned a static IPv4 address and renamed to align with enterprise naming conventions.
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/edea6092-e840-418a-921e-8b3cd69cec5c" />
+<img width="1366" height="765" alt="image" src="https://github.com/user-attachments/assets/76fd4e08-0e2c-40aa-b409-34457a9b6c77" />
+
 
 
 **2. Domain Controller Promotion**
