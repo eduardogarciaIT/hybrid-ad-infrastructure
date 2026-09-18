@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Windows_logo_-_2012.svg/1024px-Windows_logo_-_2012.svg.png" height="20%" width="20%" alt="Windows Logo"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Windows_logo_-_2012.svg" height="100" alt="Windows Logo"/>
 </p>
 
 # Hybrid Active Directory & Endpoint Management Lab
@@ -8,6 +8,7 @@ This tutorial outlines the implementation of an on-premises Active Directory syn
 
 ### Environments and Technologies Used
 
+- Microsoft Hyper-V (Virtualization)
 - Active Directory Domain Services (AD DS)
 - Microsoft Entra Connect
 - Microsoft 365 / Entra ID 
@@ -21,22 +22,37 @@ In this lab, a local Windows Server 2022 machine was configured to act as a Doma
 
 [Drag and drop your Network Diagram image here (if you have one)]
 
-**1. On-Premises Active Directory Setup**
-The local Domain Controller was configured with a static IP address to serve as the primary DNS. Once AD DS was configured, test user accounts, security groups, and Organizational Units (OUs) were created. 
+**0. Virtual Infrastructure Setup (Hyper-V)**
+To simulate the on-premises data center, Microsoft Hyper-V was utilized as the virtualization hypervisor. Virtual machines were allocated dedicated compute, memory, and virtual switch networking resources to host the Windows Server 2022 Domain Controller and the client machines.
+
+[Drag and drop your Hyper-V Manager screenshot here]
+
+**1. Server Provisioning & Network Setup**
+A virtual machine was provisioned with Windows Server 2022 Standard (Desktop Experience). To ensure reliable DNS resolution and domain functionality, the server was assigned a static IPv4 address and renamed to align with enterprise naming conventions.
+
+[Drag and drop your Server Manager / Local Server screenshot here]
+
+**2. Domain Controller Promotion**
+The Active Directory Domain Services (AD DS) role was installed, and the server was promoted to a Domain Controller. A new local forest and domain were established to serve as the foundation for the on-premises network identity management.
 
 [Drag and drop your Active Directory (ADUC) screenshot here]
 
-**2. Microsoft Entra Connect Cloud Synchronization**
+**3. Directory Structure & User Management**
+Organizational Units (OUs) were created to logically categorize departments and enforce structured management. Test user accounts and security groups were provisioned to simulate an active workforce and prepare for cloud synchronization.
+
+[Drag and drop your OU/User screenshot here]
+
+**4. Microsoft Entra Connect Cloud Synchronization**
 To establish the hybrid identity, Microsoft Entra Connect was installed. On-premises identities were successfully synced to the cloud, verified by checking the Entra ID portal for the "On-premises sync enabled" status.
 
 [Drag and drop your Entra Connect / Entra ID portal screenshot here]
 
-**3. Microsoft Intune Device Enrollment**
+**5. Microsoft Intune Device Enrollment**
 To manage the endpoints, auto-enrollment for Windows devices into Microsoft Intune was configured. Configuration profiles and compliance policies were pushed to the test client machine.
 
 [Drag and drop your Intune dashboard screenshot here]
 
-**4. Jira Service Management**
+**6. Jira Service Management**
 A Jira Service Management portal was configured to simulate help desk workflows. Simulated user tickets (e.g., password resets) were generated and documented through the portal to mimic a real-world IT support lifecycle.
 
 [Drag and drop your Jira ticket screenshot here]
