@@ -53,7 +53,8 @@ The Active Directory Domain Services (AD DS) role was installed, and the server 
 
 Organizational Units (OUs) were created to logically categorize departments and enforce structured management. Test user accounts and security groups were provisioned to simulate an active workforce and prepare for cloud synchronization.
 
-[Drag and drop your OU/User screenshot here]
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/009228e7-88b5-4450-9946-06ab25640a4b" />
+
 
 **4. Microsoft Entra Connect Cloud Synchronization**
 To establish the hybrid identity, Microsoft Entra Connect was installed. On-premises identities were successfully synced to the cloud, verified by checking the Entra ID portal for the "On-premises sync enabled" status.
