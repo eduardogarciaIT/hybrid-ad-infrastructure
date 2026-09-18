@@ -57,7 +57,7 @@ Organizational Units (OUs) were created to logically categorize departments and 
 
 
 **4. Microsoft Entra Connect Cloud Synchronization**
-To establish the hybrid identity, Microsoft Entra Connect was installed. On-premises identities were successfully synced to the cloud, verified by checking the Entra ID portal for the "On-premises sync enabled" status.
+To establish the hybrid identity, Microsoft Entra Connect was installed. On-premises identities were successfully synced to the cloud, verified by checking both the local Synchronization Service Manager and the Entra ID portal for the "On-premises sync enabled" status.
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/86530b8a-7582-4fda-9ba2-50da43d003d7" />
 
