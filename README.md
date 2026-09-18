@@ -61,7 +61,10 @@ To establish the hybrid identity, Microsoft Entra Connect was installed. On-prem
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/86530b8a-7582-4fda-9ba2-50da43d003d7" />
 
-<img width="1362" height="762" alt="image" src="https://github.com/user-attachments/assets/571f9177-a235-4847-8c29-d148e2ff33ad" />
+
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/e21c467b-dab2-4b31-a3b3-9e4f57e86973" />
+
 
 
 
