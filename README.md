@@ -25,7 +25,8 @@ In this lab, a local Windows Server 2022 machine was configured to act as a Doma
 **0. Virtual Infrastructure Setup (Hyper-V)**
 To simulate the on-premises data center, Microsoft Hyper-V was utilized as the virtualization hypervisor. Virtual machines were allocated dedicated compute, memory, and virtual switch networking resources to host the Windows Server 2022 Domain Controller and the client machines.
 
-[Drag and drop your Hyper-V Manager screenshot here]
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c7f1fc1e-1a4c-4a42-8eb1-a49f55dec132" />
+
 
 **1. Server Provisioning & Network Setup**
 A virtual machine was provisioned with Windows Server 2022 Standard (Desktop Experience). To ensure reliable DNS resolution and domain functionality, the server was assigned a static IPv4 address and renamed to align with enterprise naming conventions.
