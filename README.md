@@ -4,7 +4,7 @@
 
 # Hybrid Active Directory & Endpoint Management Lab
 
-This tutorial outlines the implementation of an on-premises Active Directory synchronized with Microsoft Entra ID (Azure AD), including device enrollment via Microsoft Intune and service management through Jira.
+This tutorial outlines the implementation of an on-premises Active Directory synchronized with Microsoft Entra ID (Azure AD), including device enrollment via Microsoft Intune and service management through ServiceNow.
 
 ### Environments and Technologies Used
 
@@ -20,12 +20,10 @@ This tutorial outlines the implementation of an on-premises Active Directory syn
 
 In this lab, a local Windows Server 2022 machine was configured to act as a Domain Controller for the on-premises network. A hybrid cloud environment was then established using Microsoft Entra Connect to synchronize local Active Directory users to a Microsoft 365 tenant. Finally, client machines were enrolled in Microsoft Intune for modern endpoint management.
 
-[Drag and drop your Network Diagram image here (if you have one)]
-
 <br><br>
 <br><br>
-**0. Virtual Infrastructure Setup (Hyper-V)**
 
+### 0. Microsoft Hyper-V (On-Premises Virtualization)
 
 To simulate the on-premises data center, Microsoft Hyper-V was utilized as the virtualization hypervisor. Virtual machines were allocated dedicated compute, memory, and virtual switch networking resources to host the Windows Server 2022 Domain Controller and the client machines.
 
@@ -33,8 +31,8 @@ To simulate the on-premises data center, Microsoft Hyper-V was utilized as the v
 
 <br><br>
 <br><br>
-**1. Server Provisioning & Network Setup**
 
+### 1. Windows Server 2022 (Provisioning and Networking)
 
 A virtual machine was provisioned with Windows Server 2022 Standard (Desktop Experience). To ensure reliable DNS resolution and domain functionality, the server was assigned a static IPv4 address and renamed to align with enterprise naming conventions.
 
@@ -42,8 +40,8 @@ A virtual machine was provisioned with Windows Server 2022 Standard (Desktop Exp
 
 <br><br>
 <br><br>
-**2. Domain Controller Promotion**
 
+### 2. Active Directory Domain Services (Domain Promotion)
 
 The Active Directory Domain Services (AD DS) role was installed, and the server was promoted to a Domain Controller. A new local forest and domain were established to serve as the foundation for the on-premises network identity management.
 
@@ -51,8 +49,8 @@ The Active Directory Domain Services (AD DS) role was installed, and the server 
 
 <br><br>
 <br><br>
-**3. Directory Structure & User Management**
 
+### 3. Active Directory Organizational Units (Identity Management)
 
 Organizational Units (OUs) were created to logically categorize departments and enforce structured management. Test user accounts and security groups were provisioned to simulate an active workforce and prepare for cloud synchronization.
 
@@ -60,28 +58,28 @@ Organizational Units (OUs) were created to logically categorize departments and 
 
 <br><br>
 <br><br>
-**4. Microsoft Entra Connect Cloud Synchronization**
+
+### 4. Microsoft Entra Connect (Cloud Synchronization)
 
 To establish the hybrid identity, Microsoft Entra Connect was installed. On-premises identities were successfully synced to the cloud, verified by checking both the local Synchronization Service Manager and the Entra ID portal for the "On-premises sync enabled" status.
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/86530b8a-7582-4fda-9ba2-50da43d003d7" />
 
-
-
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/e21c467b-dab2-4b31-a3b3-9e4f57e86973" />
 
-
 <br><br>
 <br><br>
-**5. Microsoft Intune Device Enrollment**
 
-To manage the endpoints, auto-enrollment for Windows devices into Microsoft Intune was configured. Configuration profiles and compliance policies were pushed to the test client machine.
+### 5. Microsoft Intune (Endpoint Management and MDM)
+
+To establish modern endpoint management, the virtual machine (`CLIENT-01`) provisioned in the local Hyper-V environment was enrolled into Microsoft Intune via Microsoft Entra ID join. Device management and compliance policies were verified directly within the Intune admin center.
 
 <img width="1365" height="762" alt="image" src="https://github.com/user-attachments/assets/5c0698ff-c4ad-41ac-bb06-eb170afae6d3" />
 
 <br><br>
 <br><br>
-**6. ServiceNow IT Service Management (ITSM)**
+
+### 6. ServiceNow IT Service Management (ITSM)
 
 To simulate an enterprise help desk lifecycle, a ServiceNow developer instance was integrated with the Microsoft tenant. An Incident ticket was generated for a simulated user access issue, assigned to the appropriate IT support queue, and tracked through resolution, demonstrating proper ITIL-aligned service management.
 
@@ -90,4 +88,3 @@ To simulate an enterprise help desk lifecycle, a ServiceNow developer instance w
 <img width="1365" height="765" alt="image" src="https://github.com/user-attachments/assets/435dca7b-9697-4ee6-9f3b-3a320d8b36bd" />
 
 <img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/71786517-1215-48d4-8947-505356964f4f" />
-
