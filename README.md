@@ -22,6 +22,8 @@ In this lab, a local Windows Server 2022 machine was configured to act as a Doma
 
 [Drag and drop your Network Diagram image here (if you have one)]
 
+<br><br>
+<br><br>
 **0. Virtual Infrastructure Setup (Hyper-V)**
 
 
@@ -29,7 +31,8 @@ To simulate the on-premises data center, Microsoft Hyper-V was utilized as the v
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c7f1fc1e-1a4c-4a42-8eb1-a49f55dec132" />
 
-
+<br><br>
+<br><br>
 **1. Server Provisioning & Network Setup**
 
 
@@ -37,8 +40,8 @@ A virtual machine was provisioned with Windows Server 2022 Standard (Desktop Exp
 
 <img width="1366" height="765" alt="image" src="https://github.com/user-attachments/assets/76fd4e08-0e2c-40aa-b409-34457a9b6c77" />
 
-
-
+<br><br>
+<br><br>
 **2. Domain Controller Promotion**
 
 
@@ -46,8 +49,8 @@ The Active Directory Domain Services (AD DS) role was installed, and the server 
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/287450b4-93f9-45c3-bef7-e1463748b833" />
 
-
-
+<br><br>
+<br><br>
 **3. Directory Structure & User Management**
 
 
@@ -55,8 +58,10 @@ Organizational Units (OUs) were created to logically categorize departments and 
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/009228e7-88b5-4450-9946-06ab25640a4b" />
 
-
+<br><br>
+<br><br>
 **4. Microsoft Entra Connect Cloud Synchronization**
+
 To establish the hybrid identity, Microsoft Entra Connect was installed. On-premises identities were successfully synced to the cloud, verified by checking both the local Synchronization Service Manager and the Entra ID portal for the "On-premises sync enabled" status.
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/86530b8a-7582-4fda-9ba2-50da43d003d7" />
@@ -66,13 +71,15 @@ To establish the hybrid identity, Microsoft Entra Connect was installed. On-prem
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/e21c467b-dab2-4b31-a3b3-9e4f57e86973" />
 
 
-
-
+<br><br>
+<br><br>
 **5. Microsoft Intune Device Enrollment**
+
 To manage the endpoints, auto-enrollment for Windows devices into Microsoft Intune was configured. Configuration profiles and compliance policies were pushed to the test client machine.
 
 <img width="1365" height="762" alt="image" src="https://github.com/user-attachments/assets/5c0698ff-c4ad-41ac-bb06-eb170afae6d3" />
 
+<br><br>
 <br><br>
 **6. ServiceNow IT Service Management (ITSM)**
 
