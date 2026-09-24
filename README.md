@@ -78,6 +78,7 @@ To manage the endpoints, auto-enrollment for Windows devices into Microsoft Intu
 
 To simulate an enterprise help desk lifecycle, a ServiceNow developer instance was integrated with the Microsoft tenant. An Incident ticket was generated for a simulated user access issue, assigned to the appropriate IT support queue, and tracked through resolution, demonstrating proper ITIL-aligned service management.
 
-[Drag and drop your ServiceNow/Entra Integration screenshot here]
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/39b231e6-3e5e-441d-af3e-993a3a0564a4" />
+
 
 [Drag and drop your ServiceNow Ticket Resolution screenshot here]
