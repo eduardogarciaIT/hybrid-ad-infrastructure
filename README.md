@@ -79,7 +79,7 @@ To establish modern endpoint management, the virtual machine (`CLIENT-01`) provi
 <br><br>
 <br><br>
 
-### 6. ServiceNow IT Service Management (ITSM)
+### 6. ServiceNow (ITSM)
 
 To simulate an enterprise help desk lifecycle, a ServiceNow developer instance was integrated with the Microsoft tenant. An Incident ticket was generated for a simulated user access issue, assigned to the appropriate IT support queue, and tracked through resolution, demonstrating proper ITIL-aligned service management.
 
