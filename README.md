@@ -73,7 +73,7 @@ To manage the endpoints, auto-enrollment for Windows devices into Microsoft Intu
 
 <img width="1365" height="762" alt="image" src="https://github.com/user-attachments/assets/5c0698ff-c4ad-41ac-bb06-eb170afae6d3" />
 
-
+<br><br>
 **6. ServiceNow IT Service Management (ITSM)**
 
 To simulate an enterprise help desk lifecycle, a ServiceNow developer instance was integrated with the Microsoft tenant. An Incident ticket was generated for a simulated user access issue, assigned to the appropriate IT support queue, and tracked through resolution, demonstrating proper ITIL-aligned service management.
