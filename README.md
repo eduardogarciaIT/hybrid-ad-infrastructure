@@ -13,7 +13,7 @@ This tutorial outlines the implementation of an on-premises Active Directory syn
 - Microsoft Entra Connect
 - Microsoft 365 / Entra ID 
 - Microsoft Intune (MDM)
-- Jira Service Management
+- ServiceNow (ITSM / Incident Management)
 - Windows Server 2022 & Windows 11
 
 ### Architecture and Configuration Steps
@@ -74,7 +74,10 @@ To manage the endpoints, auto-enrollment for Windows devices into Microsoft Intu
 <img width="1365" height="762" alt="image" src="https://github.com/user-attachments/assets/5c0698ff-c4ad-41ac-bb06-eb170afae6d3" />
 
 
-**6. Jira Service Management**
-A Jira Service Management portal was configured to simulate help desk workflows. Simulated user tickets (e.g., password resets) were generated and documented through the portal to mimic a real-world IT support lifecycle.
+**6. ServiceNow IT Service Management (ITSM)**
 
-[Drag and drop your Jira ticket screenshot here]
+To simulate an enterprise help desk lifecycle, a ServiceNow developer instance was integrated with the Microsoft tenant. An Incident ticket was generated for a simulated user access issue, assigned to the appropriate IT support queue, and tracked through resolution, demonstrating proper ITIL-aligned service management.
+
+[Drag and drop your ServiceNow/Entra Integration screenshot here]
+
+[Drag and drop your ServiceNow Ticket Resolution screenshot here]
