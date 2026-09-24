@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/526f9a6a-36d4-4a5a-8daa-d2f17160cb91" width="800" alt="Hybrid Active Directory and Entra ID Diagram"/>
+  <img src="[https://github.com/user-attachments/assets/526f9a6a-36d4-4a5a-8daa-d2f17160cb91](https://github.com/user-attachments/assets/b94a7e3b-373b-4a16-9db6-f33094972056)" width="800" alt="Hybrid Active Directory and Entra ID Diagram"/>
 </div>
 
 # Enterprise Hybrid IT Infrastructure Lab
