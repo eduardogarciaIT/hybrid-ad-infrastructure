@@ -3,7 +3,7 @@
 </div>
 
 
-# Enterprise Hybrid IT Infrastructure Lab
+<h1 align="center">Enterprise Hybrid IT Infrastructure Lab</h1>
 
 This tutorial outlines the implementation of an on-premises Active Directory synchronized with Microsoft Entra ID (Azure AD), including device enrollment via Microsoft Intune and service management through ServiceNow.
 
