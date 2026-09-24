@@ -1,7 +1,6 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/09a2e5ed-5689-4a67-9376-a1f4e0c7e427" width="800" alt="Windows Server 2022 Header"/>
+  <img src="https://github.com/user-attachments/assets/526f9a6a-36d4-4a5a-8daa-d2f17160cb91" width="800" alt="Hybrid Active Directory and Entra ID Diagram"/>
 </div>
-
 # Enterprise Hybrid IT Infrastructure Lab
 
 This tutorial outlines the implementation of an on-premises Active Directory synchronized with Microsoft Entra ID (Azure AD), including device enrollment via Microsoft Intune and service management through ServiceNow.
