@@ -80,5 +80,7 @@ To simulate an enterprise help desk lifecycle, a ServiceNow developer instance w
 
 <img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/39b231e6-3e5e-441d-af3e-993a3a0564a4" />
 
+<img width="1365" height="765" alt="image" src="https://github.com/user-attachments/assets/435dca7b-9697-4ee6-9f3b-3a320d8b36bd" />
 
-[Drag and drop your ServiceNow Ticket Resolution screenshot here]
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/71786517-1215-48d4-8947-505356964f4f" />
+
