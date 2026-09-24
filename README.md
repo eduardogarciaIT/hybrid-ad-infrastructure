@@ -71,7 +71,8 @@ To establish the hybrid identity, Microsoft Entra Connect was installed. On-prem
 **5. Microsoft Intune Device Enrollment**
 To manage the endpoints, auto-enrollment for Windows devices into Microsoft Intune was configured. Configuration profiles and compliance policies were pushed to the test client machine.
 
-[Drag and drop your Intune dashboard screenshot here]
+<img width="1365" height="762" alt="image" src="https://github.com/user-attachments/assets/5c0698ff-c4ad-41ac-bb06-eb170afae6d3" />
+
 
 **6. Jira Service Management**
 A Jira Service Management portal was configured to simulate help desk workflows. Simulated user tickets (e.g., password resets) were generated and documented through the portal to mimic a real-world IT support lifecycle.
