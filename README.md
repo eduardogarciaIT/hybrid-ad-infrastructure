@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="[https://github.com/user-attachments/assets/6442c06b-418f-428a-bc9e-64ae47392cff](https://github.com/user-attachments/assets/11881811-1a8a-4863-a9ec-2d5b9aef0d1d)" width="800" alt="Hybrid Active Directory and Entra ID Diagram"/>
+  <img src="https://github.com/user-attachments/assets/6442c06b-418f-428a-bc9e-64ae47392cff" width="800" alt="Hybrid Active Directory and Entra ID Diagram"/>
 </div>
 
 
