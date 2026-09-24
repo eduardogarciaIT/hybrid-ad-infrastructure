@@ -1,7 +1,4 @@
-<p align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Windows_logo_-_2012.svg" height="100" alt="Windows Logo"/>
-</p>
-
+<img width="1074" height="604" alt="why-you-should-buy-windows-server-2022-brytesoft" src="https://github.com/user-attachments/assets/09a2e5ed-5689-4a67-9376-a1f4e0c7e427" />
 # Hybrid Active Directory & Endpoint Management Lab
 
 This tutorial outlines the implementation of an on-premises Active Directory synchronized with Microsoft Entra ID (Azure AD), including device enrollment via Microsoft Intune and service management through Jira.
